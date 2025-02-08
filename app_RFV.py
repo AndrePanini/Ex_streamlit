@@ -59,31 +59,8 @@ def main():
     # Configuração inicial da página da aplicação
     st.set_page_config(
         page_title="EBAC | Módulo 31 | Streamlit V | Exercício 1",
-        page_icon='https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/ebac-course-utils/media/icon/favicon.ico', 
         layout="wide",
         initial_sidebar_state="expanded",
-    )
-
-    # TÍTULO
-    st.markdown(
-        """
-    <div style="text-align:center">
-        <a href="https://github.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados">
-            <img src="https://raw.githubusercontent.com/rhatiro/Curso_EBAC-Profissao_Cientista_de_Dados/main/ebac-course-utils/media/logo/ebac_logo-data_science.png" alt="ebac_logo-data_science" width=100%>
-        </a>
-    </div> 
-
-    ---
-
-    <!-- # **Profissão: Cientista de Dados** -->
-    ### **Módulo 31** | Streamlit V | Exercício 1
-
-    **Aluno:** [Roberto Hatiro Nishiyama](https://www.linkedin.com/in/rhatiro/)<br>
-    **Data:** 23 de novembro de 2023.
-
-    ---
-    """,
-        unsafe_allow_html=True,
     )
 
     # Título principal da aplicação
